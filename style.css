@@ -1,0 +1,91 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+body{
+    background-image:url(bg.jpg);
+    background-position: center;
+    background-size: cover;
+}
+.card-box{
+    background: rgba(0, 0, 0, 0.9);
+    margin: 12% auto;
+    padding: 30px 0px;
+    width: 400px;
+    height: 260px;
+    color: #fff;
+    box-shadow: 0 0 20px 2px rgba(0, 0, 0, 0.5);
+    border-radius: 10px;
+}
+.card-box h1{
+    text-align: center;
+    font-size: 23px;
+    font-weight: 600;
+}
+.form{
+    max-width: 450px;
+    margin-top: 25px;
+}
+.input{
+    margin: 15px auto;
+    width: 80%;
+    border-bottom: 1px solid #fff;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    border-radius: 5px;
+}
+
+input{
+    width: 100%;
+    outline: none;
+    background: transparent;
+    border: 0;
+    color: #fff;
+}
+::placeholder{
+    margin-left: 10px;
+    color: grey;
+}
+.btn{
+    width: 40%;
+    padding: 8px 4px;
+    margin: 15px 0px 0px 30%;
+    border-radius: 50px;
+    cursor: pointer;
+    outline: none;
+    border: 0px;
+    background-color: transparent;
+    border: 1px solid white;
+    color: white;
+    display: block;
+}
+button:hover{
+    background:linear-gradient(to right, #ff105f, #ffad06);
+    border: 0;
+    color: black;
+    font-weight: bolder;
+}
+.icon{
+    float: right;
+    display: none;
+}
+.btn-submit{
+    margin:  25px 80px;
+    padding: 8px 8px;
+    outline: none;
+    border-radius: 30px;
+    box-shadow: none;
+    cursor: pointer;
+    border: 0;
+    background: linear-gradient(to left, #ff105f, #ffad06 );
+    text-align: center;
+}
+@media (max-width:520px){
+    .card-box{
+        padding: 25px 0px;
+        width: 350px;
+        height: 320px;
+        margin: 20% auto;
+      
+    }
+}
